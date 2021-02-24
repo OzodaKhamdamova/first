@@ -50,6 +50,7 @@ img {
     padding: 0;
     margin: 0;
     list-style: none;
+    font-family: 'Karla' 'Arial' sans-serif;
     font-size: 13px;
     line-height: 15.2px;
     text-transform: uppercase;
@@ -63,21 +64,40 @@ img {
 .sitenav-link{
     text-decoration: none;
     color: #837d88;
+    transition: background-color 0.5s ease, color 0.3s ease;
 }
 .sitenav-link:hover{
     color: #2c2830;
 
 }
 
-   
-
-.sitenav-item-bordered .sitenav-link{
+.sitenav-item-bordered{
     display: block;
     padding: 12px 28px;
     border: 2px solid #2c2830;
     color:#2c2830 ;
 }
-.sitenav-item-bordered .sitenav-link:hover{
+.sitenav-item-bordered:hover{
     background-color: white;
     color: #2c2830;
 }
+.line{
+    width: 300px;
+    
+    padding: 35px;
+}
+.title{
+    color: #2c2830;
+    padding-bottom: 25px;
+    font-family: 'DM Serif Display';
+  
+}
+.content{
+    display: flex;
+}
+
+.child{
+    padding-left: 30px;
+    font-family: 'Karla';
+}
+
